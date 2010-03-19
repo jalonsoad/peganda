@@ -15,6 +15,8 @@
      
      -->
      
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/interface.js"></script>
 
    <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="stylesheets/blueprint/screen.css" type="text/css" media="screen, projection"/>
@@ -25,19 +27,42 @@
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?3.0.0/build/cssreset/reset-min.css&3.0.0/build/cssfonts/fonts-min.css&3.0.0/build/cssgrids/grids-min.css&3.0.0/build/cssbase/base-min.css">
 	<link rel="stylesheet" type="text/css" href="assets/node-menunav-examples-base.css">
 -->
+   <!--dock menu JS options -->
+<script type="text/javascript">
+	
+	$(document).ready(
+		function()
+		{
+			$('#dock').Fisheye(
+				{
+					maxWidth: 50,
+					items: 'a',
+					itemsText: 'span',
+					container: '.dock-container',
+					itemWidth: 40,
+					proximity: 90,
+					halign : 'center'
+				}
+			)
+			$('#dock2').Fisheye(
+				{
+					maxWidth: 60,
+					items: 'a',
+					itemsText: 'span',
+					container: '.dock-container2',
+					itemWidth: 40,
+					proximity: 80,
+					alignment : 'left',
+					valign: 'bottom',
+					halign : 'center'
+				}
+			)
+		}
+	);
+
+</script>
    
-   
-        <script type="text/javascript" src="../script/scripts.js">
-        </script>
-
-
-		<script type="text/javascript">
-
-			//	Hide the menu while its dependencies are being loaded
-
-			document.documentElement.className = "yui-loading";
-		
-		</script>
+      
 
     
   </head>
@@ -45,210 +70,31 @@
     <!--<body class="yui-skin-sam">-->
 
 	<div class="container">  
-		<div class="span-19  ">
+		<div class="span-19">
 		 <p><img src="/images/company.png" class="top pull-1 left" alt="test"/>
                  </p>
 				<headerpeg> Peganda</headerpeg>
 		</div>
 				
 
-		<div class="span-20 prepend-2 last">
-				<h1> Ahorre tiempo y frustraciones, no aprenda engorrosos sistemas financieros </h1>
+		<div class="span-20 prepend-6 last">
+				<h1>recursos online para empresas y profesionales</h1>
 		</div>
 
 			 
-		<div class="span-1  prepend-19">
-			<div id="navigation">
-				<img src="/images/home.png" class="top pull-1 left" alt="Home" height="24px" width="24px"/>
-			</div> 
+		<div class="span-5 prepend-19 last">
+		  <div class="dock" id="dock">
+  			<div class="dock-container">
+					<a class="dock-item" href="#"><img src="/images/home.png" alt="home" /><span>Home</span></a> 
+	   			<a class="dock-item" href="#"><img src="/images/portfolio.png" alt="portfolio" /><span>Servicios</span></a> 
+	  				<a class="dock-item" href="/contacto"><img src="/images/email.png" alt="contacto" /><span>Contacto</span></a>
+	  			</div> 
 		</div> 
+	  	
+	  		
+  		</div> 
+
 			
-			<div class="span-1 ">
-			<div id="navigation">
-				<img src="/images/goodies-icon.png" class="top pull-1 left" alt="test" height="24px" width="24px"/>
-			</div> 
-		</div/>	
-
-
-		<div class="span-1  ">
-			<div id="navigation">
-				<img src="/images/services-icon.png" class="top pull-1 left" alt="Servicios" height="24px" width="24px"/>
-			</div> 
-		</div/> 
-
-		<div class="span-1  ">
-			<div id="navigation">
-				<img src="/images/portfolio-icon.png" class="top pull-1 left" alt="Porfolio" height="24px" width="24px"/>
-			</div> 
-		</div>	
-
-		
-		<div class="span-1 last ">
-			<div id="navigation">
-				<img src="/images/blog-icon.png" class="top pull-1 left" alt="Blog" height="24px" width="24px"/>
-			</div> 					
-		</div/>	
-		
-		<hr> 
-		<!-- barra de menus
-		<div class="span-15 prepend-9 last ">
-		 <div class="yui-skin-sam">
-			<div class="yui-t1">
-
-				<div class="yui-main">
-					<div class="yui-b">
-
-					   <div id="productsandservices" class="yui-menu yui-menu-horizontal yui-menubuttonnav">
-							<div class="yui-menu-content">
-								<ul class="first-of-type">
-									<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://www.yahoo.com/">Home</a></li>
-									<li>
-										<a class="yui-menu-label" href="#connect"><em>Connect</em></a>
-										<div id="connect" class="yui-menu">
-
-											<div class="yui-menu-content">
-												<ul>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://developer.yahoo.com/">Developer Network</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://www.flickr.com">Flickr</a></li>
-													<li>
-														<a class="yui-menu-label" href="#pim">PIM</a>
-														<div id="pim" class="yui-menu">
-
-															<div class="yui-menu-content">	
-
-																<ul>
-																	<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://mail.yahoo.com">Mail</a></li>
-																	<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://www.zimbra.com">Zimbra</a></li>
-																</ul>
-
-																<ul>
-																	<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://addressbook.yahoo.com">Address Book</a></li>
-
-																	<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://calendar.yahoo.com">Calendar</a></li>
-																	<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://notepad.yahoo.com">Notepad</a></li>
-																</ul>
-																
-																<ul>
-																	<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://messenger.yahoo.com">Messenger</a></li>
-																</ul>
-																
-															</div>	
-														</div>                    
-													</li>
-
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://profiles.yahoo.com">Profiles</a> </li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://mobile.yahoo.com">Mobile</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://mybloglog.yahoo.com/">MyBlogLog</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://pride.yahoo.com/">Pride</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://upcoming.yahoo.com/">Upcoming</a></li>
-												</ul>	
-											</div>
-
-										</div>      
-									</li>
-
-									<li>
-										<a class="yui-menu-label" href="#find-info"><em>Find Info</em></a>
-										<div id="find-info" class="yui-menu">
-											<div class="yui-menu-content">
-												<ul>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://answers.yahoo.com">Answers</a></li>
-
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://babelfish.yahoo.com/">Babel Fish Translations</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://info.yahoo.com/">Company Info</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://search.yahoo.com/cc">Creative Commons Search</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://dir.yahoo.com/">Directory</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://hotjobs.yahoo.com/">Jobs</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://local.yahoo.com">Local</a></li>
-
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://maps.yahoo.com/">Maps</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://realestate.yahoo.com">Real Estate</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://education.yahoo.com/reference/">Reference</a></li>
-												</ul>
-											</div>
-										</div>      
-									</li>
-
-									<li>
-										<a class="yui-menu-label" href="#lifestyles"><em>Lifestyles</em></a>
-										<div id="lifestyles" class="yui-menu">
-											<div class="yui-menu-content">
-												<ul>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://autos.yahoo.com">Autos</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://food.yahoo.com">Food</a></li>
-
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://green.yahoo.com">Green</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://health.yahoo.com">Health</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://pride.yahoo.com">Pride</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://shine.yahoo.com">Shine</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://tech.yahoo.com">Tech</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://travel.yahoo.com/">Travel</a></li>
-
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://forgood.yahoo.com/index.html">Yahoo! for Good</a></li>
-												</ul>	
-											</div>
-										</div>      
-									</li>
-
-									<li>
-										<a class="yui-menu-label" href="#new-finance"><em>News &#38; Finance</em></a>
-
-										<div id="new-finance" class="yui-menu">
-											<div class="yui-menu-content">
-												<ul>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://buzz.yahoo.com/">Buzz</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://finance.yahoo.com">Finance</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://news.yahoo.com">News</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://publisher.yahoo.com">Publisher Network</a></li>
-
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://sports.yahoo.com/">Sports</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://weather.yahoo.com/">Weather</a></li>
-												</ul>	
-											</div>
-										</div>      
-									</li>
-
-									<li>
-										<a class="yui-menu-label" href="#your-yahoo"><em>Your Yahoo!</em></a>
-
-										<div id="your-yahoo" class="yui-menu">
-											<div class="yui-menu-content">
-												<ul>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://edit.yahoo.com/config/eval_profile?.done">Account Information</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://alerts.yahoo.com/">Alerts</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://smallbusiness.yahoo.com/domains">Domains</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://www.flickr.com">Flickr</a></li>
-
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://my.yahoo.com/">My Yahoo!</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://pipes.yahoo.com/">Pipes</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://toolbar.yahoo.com/">Toolbar</a></li>
-												</ul>	
-												<ul>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://bookmarks.yahoo.com/">Bookmarks</a></li>
-													<li class="yui-menuitem"><a class="yui-menuitem-content" href="http://delicious.com/">delicious</a></li>
-
-												</ul>
-											</div>
-										</div>      
-									</li>
-
-								</ul>            
-							</div>
-						</div>
-
-							
-
-						
-					</div>
-				</div>
-				
-			
-			</div>
-
-        </div> 		
-		</div> 				
-		</div/>	
-	 fin barra de menus-->
 		<hr> 
 		
 		

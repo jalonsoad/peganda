@@ -1,7 +1,7 @@
 
 
 
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+html, body, div, span, object, iframe,  p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
 article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block;}
 body {line-height:1.5;}
 table {border-collapse:separate;border-spacing:0;}
@@ -39,11 +39,12 @@ padding-left: 0pt;
 }
 	
 h1 {
-	font-family: Arial, Helvetica, Geneva, sans-serif;
-	color: #3e88b8; 
-	font-size: 12px;
-	/*font-weight: bold;*/
-	}
+    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size:3em;
+    line-height:1;
+    margin-bottom:0.5em;
+    color: #3e88b8;
+    }
 
 h2peg {
 font-size: 20px;
@@ -86,6 +87,7 @@ padding-bottom: 3px;
 padding-left: 3px;
 }
 
+#banner           {text-align: center; font-size: 22px; margin-top: 15px; padding: 15px; background: #faf4b5 url(/images/yellow.png) repeat-x bottom; border: 1px solid #ccc; border-bottom: 1px solid #999; -webkit-border-radius:8px; -moz-border-radius: 8px; text-shadow: .5px .5px .5px #ddd; line-height: 130%;}
 
 tabuladores {
 		display: block;
@@ -96,6 +98,78 @@ tabuladores {
 		text-align: center;
 		}
 
+
+img {
+	border: none;
+}
+
+/* dock - top */
+.dock {
+	position: relative; 
+	height: 50px;
+	text-align: center;
+}
+.dock-container {
+	position: absolute;
+	height: 20px;
+	/*background: url(images/dock-bg.gif);*/
+	padding-left: 20px;
+}
+a.dock-item {
+	/*display: block;*/
+	width: 20px;
+	/*color:#ffffff;*/
+        color: #3e88b8;
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	text-decoration: none;
+	font: bold 14px Arial, Helvetica, sans-serif;
+}
+.dock-item img {
+	border: none; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
+.dock-item span {
+	display: none; 
+	padding-left: 20px;
+        color: #3e88b8;
+	/* JULIOcolor:#ffffff;*/
+}
+
+/* dock2 - bottom */
+#dock2 {
+	width: 100%;
+	bottom: 0px;
+	position: absolute;
+	left: 0px;
+}
+.dock-container2 {
+	position: absolute;
+	height: 50px;
+	/*background: url(images/dock-bg.gif);*/
+	padding-left: 20px;
+}
+a.dock-item2 {
+	display: block; 
+	font: bold 12px Arial, Helvetica, sans-serif;
+	width: 40px; 
+	color: #000; 
+	bottom: 0px; 
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+}
+.dock-item2 span {
+	display: none;
+	padding-left: 20px;
+}
+.dock-item2 img {
+	border: none; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
 li {
 margin-top: 4px;
 margin-right: 0pt;
@@ -130,13 +204,13 @@ h5 {}
 h6 {}
 	
 a {
-	color: #0968c0;
+	color: #ffffff;
 	text-decoration: none;
 	background: transparent;
 	}
 a:hover {
 	color: #FFFFFF;
-	background-color: #0968c0;
+	background-color: #ffffff;
 	}
 
 /* @end */
@@ -461,3 +535,116 @@ font-size: 1.6em;
 			}
 
 /* @end */
+/* Contact */
+
+ol.cf-ol {
+	margin:0!important;
+	padding:0!important;
+}
+
+ol.cf-ol li	{
+	background:none!important;
+	margin:5px 0!important;
+	padding:0;
+	list-style:none!important;
+	text-align:left;
+	line-height:1.3em;
+}
+
+.cform {
+}
+
+.cform .cf_hidden {
+	display:none;
+	border:none!important;
+	background:none!important;
+	padding:0!important;
+	margin:0!important;
+}
+
+.cform label,
+.forms label {
+	margin:4px 10px 6px 0;
+	display:-moz-inline-box; /*for mozilla*/
+	display:inline-block; /*for Opera & IE*/
+	text-align:left;
+	width: 100%;
+	font-size: 18px;
+	text-transform: none;
+	font-weight: 300;
+	padding: 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	color: #222;
+}
+
+.cform input,
+.cform textarea,
+.cform select {
+	font-size: 18px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	color: #222;
+	padding:6px;
+	background: #fff;
+	border: 1px solid #d7d7d7;
+}
+.cform textarea,
+.cform input {
+	width:437px;
+	margin-bottom: 10px;
+}
+
+.cform input {
+	height: 20px;
+}
+
+.cform input.backbutton,
+.cform input.resetbutton,
+.cform input.sendbutton,
+.cform input.eMember_button	{
+	width: 96px;
+	height: 36px;
+	float: right;
+	margin-right: 160px;
+	border: none;
+	background: url(/images/btn_bg.jpg) no-repeat;
+	cursor: pointer;
+	text-transform: none;
+}
+
+.success, .failure, .waiting {
+	color:#df060c;
+}
+
+.linklove, .forgot_pass_link {
+	display: none;
+}
+
+.forminfo {
+	clear: right;
+}
+.forminfo p {
+	margin: 5px 0;
+}
+
+.alignleft {
+	float: left;
+	padding: 5px 10px 5px 0;
+}
+.alignright {
+	float: right;
+	padding: 5px 0 5px 10px;
+}
+
+h2.sorry {
+	margin-bottom: 25px;
+}
+.lineheight {
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+
+#cforms2form {
+	margin-top: 20px;
+}
