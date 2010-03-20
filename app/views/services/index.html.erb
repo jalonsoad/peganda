@@ -1,0 +1,354 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" xml:lang="es" lang="es">>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="peganda es una empresa líder en ofrecer soluciones de contabilidad y asesoría financiera  online. Nuestros sistemas son flexibles y fáciles de utilizar" />
+    <meta name="keywords" content="servicios financieros, servicios familaires, contabilidad, impuestos, servicios familiares, asesoramiento" />
+    <meta name="google-site-verification" content="n03I2IgbCOGd4rPLrsuap7KDoAizHIiCVPKuNkelZ0A" />
+
+
+    <title>Peganda: Sistemas financieros</title>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/interface.js"></script>
+
+   <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+   <link rel="stylesheet" href="stylesheets/blueprint/screen.css" type="text/css" media="screen, projection"/>
+   <link rel="stylesheet" href="stylesheets/blueprint/print.css" type="text/css" media="print"/>
+   <!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+   <!--dock menu JS options -->
+<script type="text/javascript">
+
+	$(document).ready(
+		function()
+		{
+			$('#dock').Fisheye(
+				{
+					maxWidth: 50,
+					items: 'a',
+					itemsText: 'span',
+					container: '.dock-container',
+					itemWidth: 40,
+					proximity: 90,
+					halign : 'center'
+				}
+			)
+			$('#dock2').Fisheye(
+				{
+					maxWidth: 60,
+					items: 'a',
+					itemsText: 'span',
+					container: '.dock-container2',
+					itemWidth: 40,
+					proximity: 80,
+					alignment : 'left',
+					valign: 'bottom',
+					halign : 'center'
+				}
+			)
+		}
+	);
+
+</script>
+ 
+  </head>
+    <body >
+   	<div class="container">
+		<div class="span-19">
+		 <p><img src="/images/company.png" class="top pull-1 left" alt="test"/>
+                 </p>
+				<headerpeg> Peganda</headerpeg>
+		</div>
+
+
+		<div class="span-20 prepend-8 last">
+				 <div id="h1peg">Recursos online para empresas y profesionales </div>
+		</div>
+
+
+		<div class="span-5 prepend-19 last">
+		  <div class="dock" id="dock">
+  			<div class="dock-container">
+				<a class="dock-item" href="http://localhost:3000/welcome"><img src="/images/home.png" alt="home" /><span>Home</span></a>
+	   			<a class="dock-item" href="http://localhost:3000/services"><img src="/images/portfolio.png" alt="portfolio" /><span>Servicios</span></a>
+                        	<a class="dock-item" href="http://localhost:3000/contact"><img src="/images/email.png" alt="contacto" /><span>Contacto</span></a>
+	  		</div>
+                 </div>
+  		</div>
+
+
+		<div class="span-24 last ">
+                  <div id="h2peg">Servicios que ofrecemos</div>
+                </div>
+                  	<hr class="space"> </hr>
+
+                  <% if flash[:notice] -%>
+                      <div id="banner"><%= flash[:notice] %></div>
+                  <% else %>
+                       <div id="banner">
+                        Actualmente contamos con más <strong>1.000</strong> clientes que utilizan nuestros sistemas <strong>Online</strong>.
+                        </div>
+                 <% end -%>
+
+                      <p></p>
+
+
+
+	<div class="span-24 last">
+              	
+              <div class="span-7 colborder ">
+                    <div class="package_holder" style="background: #deeef9;">
+                    <div class="package_holder_inside">
+                      <p> <img src="/images/invoice.png" class="top pull-1 left" alt="test"></p>
+				<div id="h3peg">Contabilidad e Impuestos</div>
+                      <div class="price">desde 20 <span class="dollar">€</span><span> al mes</span></div>
+             
+                      <div class="who">Busy Freelancers</div>
+                      <div class="what">
+                        <!--span class="how_much"><span>Unlimited Features</span></span-->
+                        <ul>
+                          <li>Invoices &amp; Expenses</li>
+
+                          <li>Accounting Reports</li>
+                          <li>Awesome Tech Support</li>
+                          <li class="diff">Proposals</li>
+                          <li class="diff">Mileage Log</li>
+                          <li class="diff">Deposits</li>
+                          <li class="diff">Bank Accounts</li>
+                          <li class="diff">Sales Notes</li>
+                          <li class="diff">Members</li>
+
+                          <li class="diff">Contacts</li>
+                        </ul>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+
+		</div>
+
+              <div class="span-7 colborder ">
+                  <div class="package_holder" style="background: #deeef9;">
+                    <div class="package_holder_inside">
+                      <p> <img src="/images/accountant.png" class="top pull-1 left" alt="test"></p>
+				<div id="h3peg">Contabilidad Financiera</div>
+                      <div class="price">desde 20 <span class="dollar">€</span><span> al mes</span></div>
+
+                      <div class="who">Busy Freelancers</div>
+                      <div class="what">
+                        <!--span class="how_much"><span>Unlimited Features</span></span-->
+                        <ul>
+                          <li>Invoices &amp; Expenses</li>
+
+                          <li>Accounting Reports</li>
+                          <li>Awesome Tech Support</li>
+                          <li class="diff">Proposals</li>
+                          <li class="diff">Mileage Log</li>
+                          <li class="diff">Deposits</li>
+                          <li class="diff">Bank Accounts</li>
+                          <li class="diff">Sales Notes</li>
+                          <li class="diff">Members</li>
+
+                          <li class="diff">Contacts</li>
+                        </ul>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+
+             </div>
+            <div class="span-7 last">
+                <div class="package_holder" style="background: #deeef9;">
+                    <div class="package_holder_inside">
+                      <p> <img src="/images/how.png" class="top pull-1 left" alt="test"></p>
+				<div id="h3peg">Servicios de Gestión</div>
+                      <div class="price">desde 20 <span class="dollar">€</span><span> al mes</span></div>
+
+                      <div class="who">Busy Freelancers</div>
+                      <div class="what">
+                        <!--span class="how_much"><span>Unlimited Features</span></span-->
+                        <ul>
+                          <li>Invoices &amp; Expenses</li>
+
+                          <li>Accounting Reports</li>
+                          <li>Awesome Tech Support</li>
+                          <li class="diff">Proposals</li>
+                          <li class="diff">Mileage Log</li>
+                          <li class="diff">Deposits</li>
+                          <li class="diff">Bank Accounts</li>
+                          <li class="diff">Sales Notes</li>
+                          <li class="diff">Members</li>
+
+                          <li class="diff">Contacts</li>
+                        </ul>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+
+              
+             </div>
+
+             </div>
+
+<hr>
+
+<div class="span-24 last">
+
+              <div class="span-7 colborder ">
+                    <div class="package_holder" style="background: #deeef9;">
+                    <div class="package_holder_inside">
+                      <p> <img src="/images/repeat.png" class="top pull-1 left" alt="test"></p>
+				<div id="h3peg">Análisis e investigación</div>
+                      <div class="price">desde 20 <span class="dollar">€</span><span> al mes</span></div>
+
+                      <div class="who">Busy Freelancers</div>
+                      <div class="what">
+                        <!--span class="how_much"><span>Unlimited Features</span></span-->
+                        <ul>
+                          <li>Invoices &amp; Expenses</li>
+
+                          <li>Accounting Reports</li>
+                          <li>Awesome Tech Support</li>
+                          <li class="diff">Proposals</li>
+                          <li class="diff">Mileage Log</li>
+                          <li class="diff">Deposits</li>
+                          <li class="diff">Bank Accounts</li>
+                          <li class="diff">Sales Notes</li>
+                          <li class="diff">Members</li>
+
+                          <li class="diff">Contacts</li>
+                        </ul>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+
+		</div>
+
+              <div class="span-7 colborder ">
+                  <div class="package_holder" style="background: #deeef9;">
+                    <div class="package_holder_inside">
+                      <p> <img src="/images/tax.png" class="top pull-1 left" alt="test"></p>
+				<div id="h3peg">E-contabilidad</div>
+                      <div class="price">desde 20 <span class="dollar">€</span><span> al mes</span></div>
+
+                      <div class="who">Busy Freelancers</div>
+                      <div class="what">
+                        <!--span class="how_much"><span>Unlimited Features</span></span-->
+                        <ul>
+                          <li>Invoices &amp; Expenses</li>
+
+                          <li>Accounting Reports</li>
+                          <li>Awesome Tech Support</li>
+                          <li class="diff">Proposals</li>
+                          <li class="diff">Mileage Log</li>
+                          <li class="diff">Deposits</li>
+                          <li class="diff">Bank Accounts</li>
+                          <li class="diff">Sales Notes</li>
+                          <li class="diff">Members</li>
+
+                          <li class="diff">Contacts</li>
+                        </ul>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+
+             </div>
+            <div class="span-7 last">
+                <div class="package_holder" style="background: #deeef9;">
+                    <div class="package_holder_inside">
+                      <p> <img src="/images/bank2.png" class="top pull-1 left" alt="test"></p>
+				<div id="h3peg">Asesoramiento</div>
+                      <div class="price">desde 20 <span class="dollar">€</span><span> al mes</span></div>
+
+                      <div class="who">Busy Freelancers</div>
+                      <div class="what">
+                        <!--span class="how_much"><span>Unlimited Features</span></span-->
+                        <ul>
+                          <li>Invoices &amp; Expenses</li>
+
+                          <li>Accounting Reports</li>
+                          <li>Awesome Tech Support</li>
+                          <li class="diff">Proposals</li>
+                          <li class="diff">Mileage Log</li>
+                          <li class="diff">Deposits</li>
+                          <li class="diff">Bank Accounts</li>
+                          <li class="diff">Sales Notes</li>
+                          <li class="diff">Members</li>
+
+                          <li class="diff">Contacts</li>
+                        </ul>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+
+
+             </div>
+
+             </div>
+<hr>
+
+
+            <div class="footer">
+      <div class="tc">
+
+      Peganda © 2010, <a href="http://www.peganda.com" title="Gestoría OnLine">Gestoría Online</a> desarrollado por <a href="http://adconsultingsp.com" target="blank" title="AD Consulting - Ruby on Rails Development">AD Consulting</a>
+      <div class="tc footer_links">
+        <a href="www.peganda.com/acercade.html" title="Acerca de Peganda">Acerca de</a>
+        <a href="www.peganda.com/precios.html">Precios</a>
+        <a href="www.peganda.com/account/login.html" title="Login">Login</a>
+       <a href="www.peganda.com/servicios.html">Servicios</a>
+        <a href="www.peganda.com/site-map.xml" title="Site Map">Mapa</a>
+        <a href="http://blog.peganda.com" title="Peganda Blog"> Blog</a>
+      </div>
+
+      </div>
+    </div>
+		<hr>
+ <hr class="space">
+
+</div>
+
+
+
+
+
+  <!-- YUI Seed -->
+		<script type="text/javascript" src="http://yui.yahooapis.com/3.0.0/build/yui/yui.js"></script>
+
+		<script type="text/javascript">
+
+			//	Call the "use" method, passing in "node-menunav".  This will load the
+			//	script and CSS for the MenuNav Node Plugin and all of the required
+			//	dependencies.
+
+			YUI({combine: true, timeout: 10000}).use("node-menunav", function(Y) {
+
+				//	Retrieve the Node instance representing the root menu
+				//	(<div id="productsandservices">) and call the "plug" method
+				//	passing in a reference to the MenuNav Node Plugin.
+
+				var menu = Y.one("#productsandservices");
+
+				menu.plug(Y.Plugin.NodeMenuNav);
+
+				//	Show the menu now that it is ready
+
+				menu.get("ownerDocument").get("documentElement").removeClass("yui-loading");
+
+			});
+
+		</script>
+
+
+
+</body>
+</html>
+
+
+

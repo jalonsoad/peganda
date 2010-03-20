@@ -40,6 +40,8 @@ Rails::Initializer.run do |config|
   # config.i18n.default_locale = :de
 
   end
+ENV['RECAPTCHA_PUBLIC_KEY']  = '6LdJ8QsAAAAAAPSUQxTnAWA9ArHfpTTrKwHLBS2V'
+ENV['RECAPTCHA_PRIVATE_KEY'] = '6LdJ8QsAAAAAAHppHM3dN1FRbu4s9H9fy37RTStV '
 
 ActionMailer::Base.delivery_method = :smtp
 ActionMailer::Base.smtp_settings = {
