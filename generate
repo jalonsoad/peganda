@@ -1,0 +1,46 @@
+Script started on Mon 22 Mar 2010 10:32:51 AM CET
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ cd app/
+]0;jalonso@jalonso-desktop: /var/www/peganda/appjalonso@jalonso-desktop:/var/www/peganda/app$ cd controllers/
+]0;jalonso@jalonso-desktop: /var/www/peganda/app/controllersjalonso@jalonso-desktop:/var/www/peganda/app/controllers$ ls
+[0m[01;32mapplication_controller.rb[0m  home_controller.rb
+contact_controller.rb      services_controller.rb
+[m]0;jalonso@jalonso-desktop: /var/www/peganda/app/controllersjalonso@jalonso-desktop:/var/www/peganda/app/controllers$ lscd controllers/cd.[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;jalonso@jalonso-desktop: /var/www/peganda/appjalonso@jalonso-desktop:/var/www/peganda/app$ cd ..
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ cd ..[3Plscd controllers/[8Papp/[3Pexitnano .profile [3Pcd jalonso/nano .profile exit[Kcd app/controllers/ls[Kcd ..[Kcd ..[3Plscd controllers/[8Papp/[3Pexitnano .profile [3Pcd jalonso/[3P/homeecho $PATH[K[K[K[K[K[K[K[K[K[Kscript/generate controller impuestos i ndex
+      exists  app/controllers/
+      exists  app/helpers/
+      create  app/views/impuestos
+      exists  test/functional/
+      exists  test/unit/helpers/
+      create  app/controllers/impuestos_controller.rb
+      create  test/functional/impuestos_controller_test.rb
+      create  app/helpers/impuestos_helper.rb
+      create  test/unit/helpers/impuestos_helper_test.rb
+      create  app/views/impuestos/index.html.erb
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ git add.
+git: 'add.' is not a git-command. See 'git --help'.
+
+Did you mean this?
+	add
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ git add.[K .
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ git commit -m"impusetos[K[K[K[K[K[K[K[K[K[K "impuestos"
+[master 2a9a821] impuestos
+ 16 files changed, 576 insertions(+), 162357 deletions(-)
+ create mode 100644 app/controllers/impuestos_controller.rb
+ create mode 100644 app/helpers/impuestos_helper.rb
+ create mode 100644 app/views/impuestos/index.html.erb
+ rewrite generate (100%)
+ create mode 100644 public/images/enchufe.png
+ create mode 100644 public/images/label.png
+ create mode 100644 public/images/reloj.png
+ create mode 100644 public/images/reloj1.png
+ create mode 100644 public/images/tablero.png
+ create mode 100644 public/images/tools.png
+ create mode 100644 public/images/wifi.png
+ create mode 100644 public/images/world.png
+ create mode 100644 test/functional/impuestos_controller_test.rb
+ create mode 100644 test/unit/helpers/impuestos_helper_test.rb
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ git push heroku pa[Km[K[Kmaster
+Counting objects: 43, done.
+Delta compression using up to 2 threads.
+Compressing objects:   3% (1/27)   Compressing objects:   7% (2/27)   Compressing objects:  11% (3/27)   Compressing objects:  14% (4/27)   Compressing objects:  18% (5/27)   Compressing objects:  22% (6/27)   Compressing objects:  25% (7/27)   Compressing objects:  29% (8/27)   Compressing objects:  33% (9/27)   Compressing objects:  37% (10/27)   Compressing objects:  40% (11/27)   Compressing objects:  44% (12/27)   Compressing objects:  48% (13/27)   Compressing objects:  51% (14/27)   Compressing objects:  55% (15/27)   Compressing objects:  59% (16/27)   Compressing objects:  62% (17/27)   Compressing objects:  66% (18/27)   Compressing objects:  70% (19/27)   Compressing objects:  74% (20/27)   Compressing objects:  77% (21/27)   Compressing objects:  81% (22/27)   Compressing objects:  85% (23/27)   Compress
