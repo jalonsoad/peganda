@@ -84,3 +84,13 @@
 [03/22/10 06:36:46 +0100 jalonso-desktop (6922)] INFO : Transaction tracing threshold is 2.0 seconds.
 [03/22/10 06:36:46 +0100 jalonso-desktop (6922)] INFO : New Relic RPM Agent 2.10.6 Initialized: pid = 6922
 [03/22/10 06:36:46 +0100 jalonso-desktop (6922)] INFO : Agent Log found in /var/www/peganda/log/newrelic_agent.log
+[03/22/10 07:16:51 +0100 jalonso-desktop (9171)] INFO : Dispatcher: webrick
+[03/22/10 07:16:51 +0100 jalonso-desktop (9171)] INFO : Application: peganda
+[03/22/10 07:16:51 +0100 jalonso-desktop (9171)] INFO : Transaction tracing threshold is 2.0 seconds.
+[03/22/10 07:16:51 +0100 jalonso-desktop (9171)] INFO : New Relic RPM Agent 2.10.6 Initialized: pid = 9171
+[03/22/10 07:16:51 +0100 jalonso-desktop (9171)] INFO : Agent Log found in /var/www/peganda/log/newrelic_agent.log
+[03/22/10 07:24:51 +0100 jalonso-desktop (10174)] INFO : Dispatcher: webrick
+[03/22/10 07:24:51 +0100 jalonso-desktop (10174)] INFO : Application: peganda
+[03/22/10 07:24:51 +0100 jalonso-desktop (10174)] INFO : Transaction tracing threshold is 2.0 seconds.
+[03/22/10 07:24:51 +0100 jalonso-desktop (10174)] INFO : New Relic RPM Agent 2.10.6 Initialized: pid = 10174
+[03/22/10 07:24:51 +0100 jalonso-desktop (10174)] INFO : Agent Log found in /var/www/peganda/log/newrelic_agent.log
