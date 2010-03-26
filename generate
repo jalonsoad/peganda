@@ -43,4 +43,372 @@ Did you mean this?
 ]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ git push heroku pa[Km[K[Kmaster
 Counting objects: 43, done.
 Delta compression using up to 2 threads.
-Compressing objects:   3% (1/27)   Compressing objects:   7% (2/27)   Compressing objects:  11% (3/27)   Compressing objects:  14% (4/27)   Compressing objects:  18% (5/27)   Compressing objects:  22% (6/27)   Compressing objects:  25% (7/27)   Compressing objects:  29% (8/27)   Compressing objects:  33% (9/27)   Compressing objects:  37% (10/27)   Compressing objects:  40% (11/27)   Compressing objects:  44% (12/27)   Compressing objects:  48% (13/27)   Compressing objects:  51% (14/27)   Compressing objects:  55% (15/27)   Compressing objects:  59% (16/27)   Compressing objects:  62% (17/27)   Compressing objects:  66% (18/27)   Compressing objects:  70% (19/27)   Compressing objects:  74% (20/27)   Compressing objects:  77% (21/27)   Compressing objects:  81% (22/27)   Compressing objects:  85% (23/27)   Compress
+Compressing objects:   3% (1/27)   Compressing objects:   7% (2/27)   Compressing objects:  11% (3/27)   Compressing objects:  14% (4/27)   Compressing objects:  18% (5/27)   Compressing objects:  22% (6/27)   Compressing objects:  25% (7/27)   Compressing objects:  29% (8/27)   Compressing objects:  33% (9/27)   Compressing objects:  37% (10/27)   Compressing objects:  40% (11/27)   Compressing objects:  44% (12/27)   Compressing objects:  48% (13/27)   Compressing objects:  51% (14/27)   Compressing objects:  55% (15/27)   Compressing objects:  59% (16/27)   Compressing objects:  62% (17/27)   Compressing objects:  66% (18/27)   Compressing objects:  70% (19/27)   Compressing objects:  74% (20/27)   Compressing objects:  77% (21/27)   Compressing objects:  81% (22/27)   Compressing objects:  85% (23/27)   Compressing objects:  88% (24/27)   Compressing objects:  92% (25/27)   Compressing objects:  96% (26/27)   Compressing objects: 100% (27/27)   Compressing objects: 100% (27/27), done.
+Writing objects:   3% (1/29)   Writing objects:   6% (2/29)   Writing objects:  10% (3/29)   Writing objects:  13% (4/29)   Writing objects:  17% (5/29)   Writing objects:  20% (6/29)   Writing objects:  24% (7/29)   Writing objects:  27% (8/29)   Writing objects:  31% (9/29)   Writing objects:  34% (10/29)   Writing objects:  37% (11/29)   Writing objects:  41% (12/29)   Writing objects:  44% (13/29)   Writing objects:  48% (14/29)   Writing objects:  51% (15/29)   Writing objects:  55% (16/29)   Writing objects:  58% (17/29)   Writing objects:  62% (18/29)   Writing objects:  65% (19/29)   Writing objects:  68% (20/29)   Writing objects:  72% (21/29)   Writing objects:  75% (22/29)   Writing objects:  79% (23/29)   Writing objects:  82% (24/29)   Writing objects:  86% (25/29)   Writing objects:  89% (26/29)   Writing objects:  93% (27/29)   Writing objects:  96% (28/29)   Writing objects: 100% (29/29)   Writing objects: 100% (29/29), 36.97 KiB, done.
+Total 29 (delta 11), reused 0 (delta 0)
+
+-----> Heroku receiving push
+-----> Rails app detected
+       Compiled slug size is 4.3MB
+-----> Launching....... done
+       http://www.peganda.com deployed to Heroku
+
+To git@heroku.com:peganda.git
+   0d5196f..2a9a821  master -> master
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ git push heroku mastercommit -m "impuestos"add .[K
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ git add .push heroku mastercommit -m "impuestos"
+[master 3162b2b] impuestos
+ 3 files changed, 191 insertions(+), 13 deletions(-)
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ git commit -m "impuestos"add .[Kcommit -m "impuestos"[Kgit commit -m "impuestos"add .[Kpush heroku master
+Counting objects: 17, done.
+Delta compression using up to 2 threads.
+Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
+Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 2.35 KiB, done.
+Total 9 (delta 6), reused 0 (delta 0)
+
+-----> Heroku receiving push
+-----> Rails app detected
+       Compiled slug size is 4.3MB
+-----> Launching....... done
+       http://www.peganda.com deployed to Heroku
+
+To git@heroku.com:peganda.git
+   2a9a821..3162b2b  master -> master
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ 
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ git status
+# On branch master
+# Changed but not updated:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   log/development.log
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ host www.peganda.com
+www.peganda.com is an alias for peganda.com.
+peganda.com mail is handled by 0 smtp.secureserver.net.
+peganda.com mail is handled by 10 mailstore1.secureserver.net.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ host www.peganda.com
+www.peganda.com is an alias for peganda.com.
+peganda.com mail is handled by 0 smtp.secureserver.net.
+peganda.com mail is handled by 10 mailstore1.secureserver.net.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ host www.peganda.com
+www.peganda.com is an alias for peganda.com.
+peganda.com mail is handled by 0 smtp.secureserver.net.
+peganda.com mail is handled by 10 mailstore1.secureserver.net.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ hosr [K[Kt heroc[Kku.com
+heroku.com has address 75.101.145.87
+heroku.com has address 75.101.163.44
+heroku.com has address 174.129.212.2
+heroku.com mail is handled by 10 aspmx2.googlemail.com.
+heroku.com mail is handled by 10 aspmx3.googlemail.com.
+heroku.com mail is handled by 10 aspmx4.googlemail.com.
+heroku.com mail is handled by 10 aspmx5.googlemail.com.
+heroku.com mail is handled by 1 aspmx.l.google.com.
+heroku.com mail is handled by 5 alt1.aspmx.l.google.com.
+heroku.com mail is handled by 5 alt2.aspmx.l.google.com.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ host heroku.com
+heroku.com has address 75.101.145.87
+heroku.com has address 75.101.163.44
+heroku.com has address 174.129.212.2
+heroku.com mail is handled by 10 aspmx2.googlemail.com.
+heroku.com mail is handled by 10 aspmx3.googlemail.com.
+heroku.com mail is handled by 10 aspmx4.googlemail.com.
+heroku.com mail is handled by 10 aspmx5.googlemail.com.
+heroku.com mail is handled by 1 aspmx.l.google.com.
+heroku.com mail is handled by 5 alt1.aspmx.l.google.com.
+heroku.com mail is handled by 5 alt2.aspmx.l.google.com.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ host heroku.comwww.peganda.com
+www.peganda.com is an alias for peganda.com.
+peganda.com mail is handled by 0 smtp.secureserver.net.
+peganda.com mail is handled by 10 mailstore1.secureserver.net.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ host www.peganda.com
+www.peganda.com is an alias for peganda.com.
+peganda.com mail is handled by 0 smtp.secureserver.net.
+peganda.com mail is handled by 10 mailstore1.secureserver.net.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ host www.peganda.com
+www.peganda.com is an alias for peganda.com.
+peganda.com mail is handled by 0 smtp.secureserver.net.
+peganda.com mail is handled by 10 mailstore1.secureserver.net.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ host www.peganda.com
+www.peganda.com is an alias for peganda.com.
+peganda.com mail is handled by 0 smtp.secureserver.net.
+peganda.com mail is handled by 10 mailstore1.secureserver.net.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ host www.peganda.com
+www.peganda.com is an alias for peganda.com.
+peganda.com mail is handled by 0 smtp.secureserver.net.
+peganda.com mail is handled by 10 mailstore1.secureserver.net.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ host www.peganda.com
+www.peganda.com is an alias for peganda.com.
+peganda.com mail is handled by 0 smtp.secureserver.net.
+peganda.com mail is handled by 10 mailstore1.secureserver.net.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ host www.peganda.com
+www.peganda.com is an alias for peganda.com.
+peganda.com mail is handled by 0 smtp.secureserver.net.
+peganda.com mail is handled by 10 mailstore1.secureserver.net.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ host www.peganda.com
+www.peganda.com is an alias for peganda.com.
+peganda.com mail is handled by 0 smtp.secureserver.net.
+peganda.com mail is handled by 10 mailstore1.secureserver.net.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ host www.peganda.com
+www.peganda.com is an alias for peganda.com.
+peganda.com mail is handled by 0 smtp.secureserver.net.
+peganda.com mail is handled by 10 mailstore1.secureserver.net.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ 
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ 
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ 
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ 
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ HERIO[K[K[K[K[Kherokiu [K[K[Ku addons:add "customs domains"
+Adding customs domains to peganda... FAILED
+no addon by that name
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ heroku [K[Ku domains:remove www.[K[K[K[Kwww.pg[Keganda.com
+Removed www.peganda.com as a custom domain name to peganda.heroku.com
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ heroku domains:remove www.peganda.com[C[C[1P.peganda.com[C[1P.peganda.com[1P.peganda.com[1Ppeganda.com
+Domain not found
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ heroku domains:remove peganda.com[1@a[1@d[1@d[1P[1P[1P[1P[1P[1P peganda.com[Cwpeganda.comwpeganda.comwpeganda.com.peganda.com
+Added www.peganda.com as a custom domain name to peganda.heroku.com
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ heroku domains:add www.peganda.com[C[C[1P.peganda.com[C[1P.peganda.com[1P.peganda.com[1Ppeganda.com
+Added peganda.com as a custom domain name to peganda.heroku.com
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ git push hero[Koku mster[K[K[K[Kaster
+Everything up-to-date
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ git push heroku masterheroku domains:add peganda.comwww.peganda.com[1Premove peganda.comwww.peganda.com[2Paddons:add "customs domains"[15Post www.peganda.com[5Pheroku.comwww.peganda.com
+www.peganda.com is an alias for peganda.com.
+peganda.com mail is handled by 0 smtp.secureserver.net.
+peganda.com mail is handled by 10 mailstore1.secureserver.net.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ host www.peganda.com
+www.peganda.com is an alias for peganda.com.
+peganda.com mail is handled by 0 smtp.secureserver.net.
+peganda.com mail is handled by 10 mailstore1.secureserver.net.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ host www.peganda.com[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpeng[K[Kganda.com
+peganda.com mail is handled by 0 smtp.secureserver.net.
+peganda.com mail is handled by 10 mailstore1.secureserver.net.
+]0;jalonso@jalonso-desktop: /var/www/pegandajalonso@jalonso-desktop:/var/www/peganda$ cd ..
+]0;jalonso@jalonso-desktop: /var/wwwjalonso@jalonso-desktop:/var/www$ cd gea[K[Kael/
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ ls
+[0m[01;34mapp[0m     [01;34mdb[0m   [01;34mlib[0m  [01;34mnbproject[0m  Rakefile  [01;34mscript[0m  [01;34mtmp[0m
+[01;34mconfig[0m  [01;34mdoc[0m  [01;34mlog[0m  [01;34mpublic[0m     README    [01;34mtest[0m    [01;34mvendor[0m
+[m]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ git add .
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ git commit -" [K[Km "new"
+# On branch master
+nothing to commit (working directory clean)
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ heork[K[K[K[Kr[K[Kheroku addons:add "custom domains"
+Adding custom domains to glowing-sky-67... done
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ heroku addons:add "custom domains"[1@r[1@e[1@m[1@o[1@v[1@e add "custom domains" [A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P domains"[1Pdomains"[1Pomains"[1Pmains"[1Pains"[1Pins"[1Pns"[1Ps"[1P"[Kwww.gaellurbu[K[K[Kbricantes. com
+Removing www.gaellubricantes.com from glowing-sky-67... ^[[AFAILED
+no addon by that name
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ heroku addons:remove www.gaellubricantes.ccom[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Padd "custom domains"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremove www.gaellubricantes.ccom[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.gaellubricantes.co[1Pm[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.gaellubricantes.com[K[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.gaellubricantes.com [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pgaellubricantes.com
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Removing gaellubricantes.com from glowing-sky-67... FAILED
+no addon by that name
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ heroku addons:remove gaellubricantes.comwww.gaellubricantes.ccom[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Caremove www.gaellubricantes.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdremove www.gaellubricantes.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdremove www.gaellubricantes.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemove www.gaellubricantes[1P.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmove www.gaellubricantes.[1Pcom[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cove www.gaellubricantes.c[1Pom[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cve www.gaellubricantes.co[1Pm[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce www.gaellubricantes.com[K[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C www.gaellubricantes.com [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Adding www.gaellubricantes.com to glowing-sky-67... FAILED
+no addon by that name
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ heroku addons:add www.gaellubricantes.com [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Premove gaellubricantes.com
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd www.gaellubricantes.com [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.gaellubricantes.com
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.gaellubricantes.com[1P.gaellubricantes.com[1Pgaellubricantes.com
+Adding gaellubricantes.com to glowing-sky-67... FAILED
+no addon by that name
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ heroku addons:add gaellubricantes.com[1@D[1@O[1@MAaddons:add gaellubricantes.com [A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[CIaddons:add gaellubricantes.comm[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[CNaddons:add gaellubricantes.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[CSaddons:add gaellubricantes.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Caddons:add gaellubricantes.co[1Pm[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[Caddons:add gaellubricantes.com[K[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[Caddons:add gaellubricantes.com [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1@d[1@o[1@m[Caddons:add gaellubricantes.com [A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[Ciaddons:add gaellubricantes.comm[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[Cnaddons:add gaellubricantes.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[Csaddons:add gaellubricantes.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C addons:add gaellubricantes.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cddons:add gaellubricantes.c[1Pom[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cddons:add gaellubricantes.co[1Pm[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cons:add gaellubricantes.com[K[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cons:add gaellubricantes.com [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P
+Added gaellubricantes.com as a custom domain name to glowing-sky-67.heroku.com
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ heroku domains:add gaellubricantes.comwgaellubricantes.comwgaellubricantes.comwgaellubricantes.com [A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.gaellubricantes.comm[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Added www.gaellubricantes.com as a custom domain name to glowing-sky-67.heroku.com
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ git push heroku mase[Kter
+Everything up-to-date
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ git push heroku master
+Everything up-to-date
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ 
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host gae[K[Kaellubricantes
+Host gaellubricantes not found: 3(NXDOMAIN)
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host gaellubricantes
+Host gaellubricantes not found: 3(NXDOMAIN)
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host gaellubricantes.com
+gaellubricantes.com mail is handled by 0 mail.gaellubricantes.com.
+gaellubricantes.com mail is handled by 10 ASPMX.L.GOOGLE.com.
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host gaellubricantes.com
+gaellubricantes.com mail is handled by 0 mail.gaellubricantes.com.
+gaellubricantes.com mail is handled by 10 ASPMX.L.GOOGLE.com.
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host gaellubricantes.com
+gaellubricantes.com mail is handled by 0 mail.gaellubricantes.com.
+gaellubricantes.com mail is handled by 10 ASPMX.L.GOOGLE.com.
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host gaellubricantes.com
+gaellubricantes.com has address 174.129.212.2
+gaellubricantes.com has address 75.101.145.87
+gaellubricantes.com has address 75.101.163.44
+gaellubricantes.com mail is handled by 0 mail.gaellubricantes.com.
+gaellubricantes.com mail is handled by 10 ASPMX.L.GOOGLE.com.
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host gaellubricantes.com
+gaellubricantes.com mail is handled by 0 mail.gaellubricantes.com.
+gaellubricantes.com mail is handled by 10 ASPMX.L.GOOGLE.com.
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host gaellubricantes.com
+gaellubricantes.com has address 174.129.212.2
+gaellubricantes.com has address 75.101.145.87
+gaellubricantes.com has address 75.101.163.44
+gaellubricantes.com mail is handled by 0 mail.gaellubricantes.com.
+gaellubricantes.com mail is handled by 10 ASPMX.L.GOOGLE.com.
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host gaellubricantes.com
+gaellubricantes.com mail is handled by 0 mail.gaellubricantes.com.
+gaellubricantes.com mail is handled by 10 ASPMX.L.GOOGLE.com.
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host gaellubricantes.comwgaellubricantes.comwgaellubricantes.comwgaellubricantes.com.gaellubricantes.com
+Host www.gaellubricantes.com not found: 3(NXDOMAIN)
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host www.gaellubricantes.com
+Host www.gaellubricantes.com not found: 3(NXDOMAIN)
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host www.gaellubricantes.com
+Host www.gaellubricantes.com not found: 3(NXDOMAIN)
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host www.gaellubricantes.com
+Host www.gaellubricantes.com not found: 3(NXDOMAIN)
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host www.gaellubricantes.com
+Host www.gaellubricantes.com not found: 3(NXDOMAIN)
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host www.gaellubricantes.com
+Host www.gaellubricantes.com not found: 3(NXDOMAIN)
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host www.gaellubricantes.com
+Host www.gaellubricantes.com not found: 3(NXDOMAIN)
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host www.gaellubricantes.com
+Host www.gaellubricantes.com not found: 3(NXDOMAIN)
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host www.gaellubricantes.com
+Host www.gaellubricantes.com not found: 3(NXDOMAIN)
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host www.gaellubricantes.com
+Host www.gaellubricantes.com not found: 3(NXDOMAIN)
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host www.gaellubricantes.com
+Host www.gaellubricantes.com not found: 3(NXDOMAIN)
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ host www.gaellubricantes.com[4Pgaellubricantes.com[Kgit push heroku masterheroku domains:add www.gaellubricantes.comm[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pgaellubricantes.com
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Paddo[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@domai[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwww.gaellubricantes.comm[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pgaellubricantes.com
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Paddo[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@domai[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Paddo[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwww.gaellubricantes.com [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pgaellubricantes.com
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@domai[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwww.gaellubricantes.comm[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [19Pgit push heroku master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cheroku domains:add www.gaellubricantes.comm[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [19Pgit push heroku master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Phost gaellubricantes.com[Kgit push heroku masterheroku domains:add www.gaellubricantes.comm[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pgaellubricantes.com
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Paddo[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@domai[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Paddo[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwww.gaellubricantes.com [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pgaellubricantes.com
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@domai[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwgaellubricantes.comwgaellubricantes.comwgaellubricantes.com [A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.gaellubricantes.comm[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+ !   Domain has already been taken
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ heroku domains:add www.gaellubricantes.comm[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[13Post www.gaellubricantes.com
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ceroku domains:add www.gaellubricantes.comm[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cradd www.gaellubricantes.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ceadd www.gaellubricantes.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmadd www.gaellubricantes.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coadd www.gaellubricantes.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvadd www.gaellubricantes.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ceadd www.gaellubricantes.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdd www.gaellubricante[1Ps.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C www.gaellubricantes[1P.com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C www.gaellubricantes.[1Pcom[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Removed www.gaellubricantes.com as a custom domain name to glowing-sky-67.heroku.com
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ heroku domains:remove www.gaellubricantes..com[A]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd www.gaellubricantes.com[K
+Added www.gaellubricantes.com as a custom domain name to glowing-sky-67.heroku.com
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ git pusdh [K[K[Kh heroku mase[Kter
+Everything up-to-date
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ 
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ 
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ l
+lsl: command not found
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ ls
+[0m[01;34mapp[0m     [01;34mdb[0m   [01;34mlib[0m  [01;34mnbproject[0m  Rakefile  [01;34mscript[0m  [01;34mtmp[0m
+[01;34mconfig[0m  [01;34mdoc[0m  [01;34mlog[0m  [01;34mpublic[0m     README    [01;34mtest[0m    [01;34mvendor[0m
+[m]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ ls -ltr
+total 64
+drwxr-xr-x 3 jalonso jalonso  4096 2010-03-08 17:14 [0m[01;34mvendor[0m
+drwxr-xr-x 6 jalonso jalonso  4096 2010-03-08 17:14 [01;34mtmp[0m
+drwxr-xr-x 7 jalonso jalonso  4096 2010-03-08 17:14 [01;34mtest[0m
+drwxr-xr-x 3 jalonso jalonso  4096 2010-03-08 17:14 [01;34mscript[0m
+-rw-r--r-- 1 jalonso jalonso 10011 2010-03-08 17:14 README
+-rw-r--r-- 1 jalonso jalonso   307 2010-03-08 17:14 Rakefile
+drwxr-xr-x 2 jalonso jalonso  4096 2010-03-08 17:14 [01;34mlog[0m
+drwxr-xr-x 3 jalonso jalonso  4096 2010-03-08 17:14 [01;34mlib[0m
+drwxr-xr-x 2 jalonso jalonso  4096 2010-03-08 17:14 [01;34mdoc[0m
+drwxr-xr-x 2 jalonso jalonso  4096 2010-03-08 17:14 [01;34mdb[0m
+drwxr-xr-x 5 jalonso jalonso  4096 2010-03-08 17:14 [01;34mconfig[0m
+drwxr-xr-x 6 jalonso jalonso  4096 2010-03-08 17:14 [01;34mapp[0m
+drwxr-xr-x 3 jalonso jalonso  4096 2010-03-08 17:20 [01;34mnbproject[0m
+drwxr-xr-x 6 jalonso jalonso  4096 2010-03-09 17:26 [01;34mpublic[0m
+[m]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ heroku satus
+Unknown command. Run 'heroku help' for usage information.
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ heroku help
+=== General Commands
+
+help                         # show this usage
+version                      # show the gem version
+
+list                         # list your apps
+create [<name>]              # create a new app
+
+keys                         # show your user's public keys
+keys:add [<path to keyfile>] # add a public key
+keys:remove <keyname>        # remove a key by name (user@host)
+keys:clear                   # remove all keys
+
+info                         # show app info, like web url and git repo
+open                         # open the app in a web browser
+rename <newname>             # rename the app
+
+dynos <qty>                  # scale to qty web processes
+workers <qty>                # scale to qty background processes
+
+sharing:add <email>          # add a collaborator
+sharing:remove <email>       # remove a collaborator
+sharing:transfer <email>     # transfers the app ownership
+
+domains:add <domain>         # add a custom domain name
+domains:remove <domain>      # remove a custom domain name
+domains:clear                # remove all custom domains
+
+ssl:add <pem> <key>          # add SSL cert to the app
+ssl:remove <domain>          # removes SSL cert from the app domain
+
+rake <command>               # remotely execute a rake command
+console <command>            # remotely execute a single console command
+console                      # start an interactive console to the remote app
+
+restart                      # restart app servers
+logs                         # fetch recent log output for debugging
+logs:cron                    # fetch cron log output
+
+maintenance:on               # put the app into maintenance mode
+maintenance:off              # take the app out of maintenance mode
+
+config                       # display the app's config vars (environment)
+config:add key=val [...]     # add one or more config vars
+config:remove key [...]      # remove one or more config vars
+config:clear                 # clear user-set vars and reset to default
+
+stack                        # show current stack and list of available stacks
+stack:migrate                # prepare migration of this app to a new stack
+
+db:pull [<database_url>]     # pull the app's database into a local database
+db:push [<database_url>]     # push a local database into the app's remote database
+db:reset                     # reset the database for the app
+
+bundles                      # list bundles for the app
+bundles:capture [<bundle>]   # capture a bundle of the app's code and data
+bundles:download             # download most recent app bundle as a tarball
+bundles:download <bundle>    # download the named bundle
+bundles:animate <bundle>     # animate a bundle into a new app
+bundles:destroy <bundle>     # destroy the named bundle
+
+addons                       # list installed addons
+addons:info                  # list all available addons
+addons:add name [key=value]  # install addon (with zero or more config vars)
+addons:remove name           # uninstall an addons
+addons:clear                 # uninstall all addons
+
+destroy                      # destroy the app permanently
+
+=== Plugins
+
+plugins                      # list installed plugins
+plugins:install <url>        # install the plugin from the specified git url
+plugins:uninstall <url/name> # remove the specified plugin
+
+=== Example:
+
+ rails myapp
+ cd myapp
+ git init
+ git add .
+ git commit -m "my new app"
+ heroku create
+ git push heroku master
+
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ 
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ heroku helpsatus[5Pls -ltr[K[Kgit push heroku masterheroku domains:add www.gaellubricantes.comm
+ !   Domain has already been taken
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ 
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ git push heroku master
+Everything up-to-date
+]0;jalonso@jalonso-desktop: /var/www/gaeljalonso@jalonso-desktop:/var/www/gael$ git push heroku masterheroku domains:add www.gaellubricantes.comm[A]0;jalonso
