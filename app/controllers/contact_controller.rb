@@ -8,7 +8,7 @@ class ContactController < ApplicationController
   def send_mail
           if verify_recaptcha
             Notifications.deliver_question(params[:email])
-            flash[:notice] = "Gracias por su email, nos pondremos en contacto con usted."
+            flash[:notice] = "Gracias por su email, en breve nos pondremos en contacto con usted."
             redirect_to :action => "index"
             
       else
