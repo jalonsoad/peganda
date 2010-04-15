@@ -99,3 +99,8 @@
 [03/22/10 10:50:19 +0100 jalonso-desktop (17551)] INFO : Transaction tracing threshold is 2.0 seconds.
 [03/22/10 10:50:19 +0100 jalonso-desktop (17551)] INFO : New Relic RPM Agent 2.10.6 Initialized: pid = 17551
 [03/22/10 10:50:19 +0100 jalonso-desktop (17551)] INFO : Agent Log found in /var/www/peganda/log/newrelic_agent.log
+[04/15/10 12:23:21 +0200 iMac-de-Imac.local (66684)] INFO : Dispatcher: mongrel
+[04/15/10 12:23:21 +0200 iMac-de-Imac.local (66684)] INFO : Application: peganda
+[04/15/10 12:23:21 +0200 iMac-de-Imac.local (66684)] INFO : Transaction tracing threshold is 2.0 seconds.
+[04/15/10 12:23:21 +0200 iMac-de-Imac.local (66684)] INFO : New Relic RPM Agent 2.10.6 Initialized: pid = 66684
+[04/15/10 12:23:21 +0200 iMac-de-Imac.local (66684)] INFO : Agent Log found in /Users/imac/NetBeansProjects/peganda/log/newrelic_agent.log
