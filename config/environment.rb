@@ -46,10 +46,10 @@ ENV['RECAPTCHA_PRIVATE_KEY'] = '6LdJ8QsAAAAAAHppHM3dN1FRbu4s9H9fy37RTStV '
 ActionMailer::Base.delivery_method = :smtp
 ActionMailer::Base.smtp_settings = {
     :enable_starttls_auto => true,
-    :address => "smtp.gmail.com",
-    :port => 587,
-    :domain => "my.server.domain.com",
+    :address => "mail.authsmtp.com",
+    :port => 25,
+    :domain => "www.heroku.com",
     :authentication => :login,
-    :user_name => "juliocesar.alonso@gmail.com",
-    :password => "jalonsoetc805"
+    :user_name => "ac23902",
+    :password => "etc805"
   }
