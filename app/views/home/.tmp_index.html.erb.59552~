@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" xml:lang="es" lang="es">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="peganda es una empresa líder en ofrecer soluciones de contabilidad y asesoría financiera  online. Nuestros sistemas son flexibles y fáciles de utilizar" />
+    <meta name="keywords" content="servicios financieros, servicios familiares, contabilidad, impuestos, asesoramiento financiero, contabilidades, IVA, IRPF, servicios integrados de contabilidad, empresas, autónomos" />
+    <meta name="google-site-verification" content="n03I2IgbCOGd4rPLrsuap7KDoAizHIiCVPKuNkelZ0A" />
+
+
+    <title>Sistemas financieros integrados para empresas y autónomos. Contabilidad e impuestos</title>
+
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/interface.js"></script>
+
+        <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="stylesheets/blueprint/screen.css" type="text/css" media="screen, projection"/>
+        <link rel="stylesheet" href="stylesheets/blueprint/print.css" type="text/css" media="print"/>
+	<!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+
+        <!--dock menu JS options -->
+<script type="text/javascript">
+
+	$(document).ready(
+		function()
+		{
+			$('#dock').Fisheye(
+				{
+					maxWidth: 50,
+					items: 'a',
+					itemsText: 'span',
+					container: '.dock-container',
+					itemWidth: 40,
+					proximity: 90,
+					halign : 'center'
+				}
+			)
+			$('#dock2').Fisheye(
+				{
+					maxWidth: 60,
+					items: 'a',
+					itemsText: 'span',
+					container: '.dock-container2',
+					itemWidth: 40,
+					proximity: 80,
+					alignment : 'left',
+					valign: 'bottom',
+					halign : 'center'
+				}
+			)
+		}
+	);
+
+</script>
+
+
+
+
+  </head>
+    <body >
+    <!--<body class="yui-skin-sam">-->
+
+	<div class="container">
+		<div class="span-24">
+		 <p><img src="/images/company.png" class="top pull-1 left" alt="peganda"/>
+                 </p>
+				<headerpeg> Peganda</headerpeg>
+		</div>
+
+
+
+		<div class="span-20 prepend-8 last">
+				 <div id="h1peg">Recursos contables para empresas y profesionales </div>
+		</div>
+
+
+
+		<div class="span-5 prepend-19 last">
+		  <div class="dock" id="dock">
+  			<div class="dock-container">
+				<a class="dock-item" href="home"><img src="/images/home.png" alt="inicio" /><span>Inicio</span></a>
+	   			<a class="dock-item" href="services"><img src="/images/portfolio.png" alt="servicios" /><span>Servicios</span></a>
+	  			<a class="dock-item" href="contact"><img src="/images/email.png" alt="contacto" /><span>Contacto</span></a>
+	  		</div>
+		 </div>
+
+
+  		</div>
+
+
+          <hr></hr>
+
+
+		<div class="span-7 colborder">
+		  <div id="h2peg">Servicios contables</div>
+		  <p><img src="/images/money.png" class="top pull-1 left" alt="contabilidad"  height="48px" width="48px"/></p>
+		  <p><div id="h4peg">Contabilidad financiera, pago a proveedores, cobro a clientes, presentación de impuestos, preparación de reportes para entidades financieras, gestión de riesgos de clientes , cumplimentación de cualquier tramite mercantil necesario en la vida de una sociedad mercantil.</div></p>
+		</div>
+
+		<div class="span-8 colborder">
+		   <div id="h2peg">Contabilidad Financiera</div>
+		   <p><img src="/images/money_bag.png" class="top pull-1 left" alt="finanzas" height="48px" width="48px"/></p>
+		   <p><div id="h4peg">Estos servicios permiten a los gestores tener un conjunto de herramientas con las que poder modelizar  sus decisiones empresariales ,  y conocer, por tanto, a priori el comportamiento númerico de la misma. Este les permitira conocer las consecuencias de las tomas de sus decisiones antes de que se produzcan.</div></p>
+		</div>
+
+		<div class="span-7 last">
+		  <div id="h2peg">Asesoramiento familar</div>
+		  <p><img src="/images/application48.png" class="top pull-1 left" alt="family office" height="48px" width="48px"/></p>
+		  <p><div id="h4peg">Servicios relativos a conocer la rentabilidad del patrimonio gestionado por la family office, así como, al asesoramiento en la gestión de las rentabilidades ponderado por los riesgos inherentes a los diferentes negocios al objeto de preservar siempre el patrimonio de la familia.</div></p>
+		</div>
+
+
+		<hr></hr>
+		<hr class="space"> </hr>
+
+		<div class="span-16 colborder">
+			<p><img src="/images/company.png" class="top pull-1 left" alt="peganda"/><div id="h4peg">Peganda es una empresa joven dedicada a integrar los servicios contables tradicionales en los cambios sociales actuales , con vocación de  servicio a nivel mundial, adaptando los mismos a los diferentes estandares contables mundiales</div></p>
+			<!--
+                        <p><div id="h4peg">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <a href="#">Morbi et risus</a>. Aliquam nisl. Nulla facilisi. Cras accumsan vestibulum ante. Vestibulum sed tortor. Praesent <span class="caps">SMALL CAPS</span> tempus fringilla elit. Ut elit diam, sagittis in, nonummy in, gravida non, nunc. Ut orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nam egestas, orci eu imperdiet malesuada, nisl purus fringilla odio, quis commodo est orci vitae justo. Aliquam placerat odio tincidunt nulla. Cras in libero. Aenean rutrum, magna non tristique posuere, erat odio eleifend nisl, non convallis est tortor blandit ligula. Nulla id augue.</div></p>
+			<blockquote>
+				<p>Integer cursus ornare mauris. Praesent nisl arcu, imperdiet eu, ornare id, scelerisque ut, nunc. Praesent sagittis erat sed velit tempus imperdiet. Ut tristique, ante in interdum hendrerit, erat enim faucibus felis, quis rutrum mauris lorem quis sem. Vestibulum ligula nisi, mattis nec, posuere et, blandit eu, ligula. Nam suscipit placerat odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Pellentesque tortor libero, venenatis vitae, rhoncus eu, placerat ut, mi. Nulla nulla.</p>
+			</blockquote>
+-->
+			<hr>
+		<div class="span-7 colborder">
+				 <div id="h2peg">Características Importantes:</div>
+				 <p></p>
+				<p> <img src="/images/candado.png" class="top pull-1 left" alt="seguro"/></p>
+				<div id="h4peg">Seguridad y protección de datos</div>
+				<p class="incr">Sistemas 100% seguros con accesos encriptados. </p>
+
+				<p> <img src="/images/sobre.png" class="top pull-1 left" alt="automatizado"/></p>
+				<div id="h4peg">Automatizado</div>
+				<p class="incr">Acceso a través de la web, totalmente automatizado.     </p>
+
+				<p> <img src="/images/globo.png" class="top pull-1 left" alt="modulable"/></p>
+				<div id="h4peg">Modulable</div>
+				<p class="incr">Solamente paga por lo que utiliza, adaptable a sus necesidades.     </p>
+
+			</div>
+		   </hr>
+
+
+			<div class="span-7 last">
+			  <div id="h2peg">Nos diferencia:</div>
+			  <p></p>
+			  <p> <img src="/images//tick.png" class="top pull-1 left" alt="serviciso integrados"/></p>
+				<div id="h4peg">Servicios integrados</div>
+				<p class="incr">Sus necesidades cubiertas con nosotros, contable y fiscal.</p>
+    			  <p> <img src="/images//tick.png" class="top pull-1 left" alt="modulable"/></p>
+				<div id="h4peg">Acceso web</div>
+				<p class="incr">A cualquier hora, desde cualquier sitio.</p>
+    			  <p> <img src="/images//tick.png" class="top pull-1 left" alt="test/"></p>
+				<div id="h4peg">Experiencia</div>
+				<p class="incr">Nuestros expertos tienen más de 10 años en el sector. </p>
+
+
+		</div>
+	</div>
+    <div class="span-6 last">
+
+			<div id="h2peg"><span class="alt">Algunos </span> testimonios</div>
+
+		  <p><img src="/images/onebit_01.png" class="top pull-1 left" alt="test"/></p>
+<!--
+			<p><div id="h4peg">Mauris a lectus. Aliquam erat volutpat. Phasellus ultrices mi a sapien. Nunc rutrum egestas lorem. Duis ac sem sagittis elit tincidunt gravida. Mauris a lectus. Aliquam erat volutpat. Phasellus ultrices mi a sapien. Nunc rutrum egestas lorem. Duis ac sem sagittis elit tincidunt gravida.</p> </div>
+-->
+			<p class="incr">
+                            <blockquote> " Para nosotros, el dejarnos asesorar por penganda y utilizar sus sistemas, nos a permitido poder centrarnos en nuestros negocio y olvidarnos de la engorrosa tarea de la contabilidad e impuestos". Confiamos al 100% en peganda.
+			</p>
+			<p>Julio C. Alonso. AD Consulting</p>
+			</div>
+                          </blockquote>
+			<div id="h2peg">Servicios Integrados</div>
+			<p> <img src="/images/onebit_01.png" class="top pull-1 left" alt="test">
+
+			<p class="incr">Todo en un único proveedor, contabilidad, impuestos, asesoramientos, con un solo interlocutor.</p>
+
+		
+
+		<hr></hr>
+
+         <!-- incluimos el footer -->
+         <%= render :partial=> "/partial/footer" %>
+</div> <!-- del container inicial -->
+
+  <!-- YUI Seed -->
+		<script type="text/javascript" src="http://yui.yahooapis.com/3.0.0/build/yui/yui.js"></script>
+
+		<script type="text/javascript">
+
+			//	Call the "use" method, passing in "node-menunav".  This will load the
+			//	script and CSS for the MenuNav Node Plugin and all of the required
+			//	dependencies.
+
+			YUI({combine: true, timeout: 10000}).use("node-menunav", function(Y) {
+
+				//	Retrieve the Node instance representing the root menu
+				//	(<div id="productsandservices">) and call the "plug" method
+				//	passing in a reference to the MenuNav Node Plugin.
+
+				var menu = Y.one("#productsandservices");
+
+				menu.plug(Y.Plugin.NodeMenuNav);
+
+				//	Show the menu now that it is ready
+
+				menu.get("ownerDocument").get("documentElement").removeClass("yui-loading");
+
+			});
+
+		</script>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2852596-7");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
