@@ -132,7 +132,7 @@ var RecaptchaOptions = {
 		  <div class="dock" id="dock">
   			<div class="dock-container">
 				<a class="dock-item" href="home"><img src="/images/home.png" alt="home" /><span>Home</span></a>
-	   			<!--<a class="dock-item" href="services"><img src="/images/portfolio.png" alt="portfolio" /><span>Servicios</span></a>-->
+	   			<a class="dock-item" href="services"><img src="/images/portfolio.png" alt="portfolio" /><span>Servicios</span></a>
                         	<a class="dock-item" href="/contact"><img src="/images/email.png" alt="contacto" /><span>Contacto</span></a>
 	  		</div>
                  </div>
